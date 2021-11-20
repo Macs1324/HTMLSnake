@@ -1,0 +1,52 @@
+.gioco
+{
+    display: flex;
+    background-color: darkcyan;
+}
+
+.campo
+{
+    width: 50vw;
+    height: 100vh;
+}
+
+.bottoni
+{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.riga-di-bottoni-1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.bottoni button
+{
+    padding : 2vw;
+    font-size: 5rem;
+    width : 10vw;
+    height: 10vw;
+    border-radius: 10px;
+    background-color: lightblue;
+    color: darkcyan;
+}
+
+.riga
+{
+    font-size: 0;
+    height: 5%;
+}
+
+.riga .cella
+{
+    width: 5%;
+    height : 100%;
+    background-color: lightblue;
+    display: inline-block;
+    font-size: 0;
+}
